@@ -31,6 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'theme',
+    'tailwind',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -121,3 +123,14 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# The tailwind app name
+TAILWIND_APP_NAME = 'theme'
+
+# Internal IPS config
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
+
+# Npm path
+NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
