@@ -1,1 +1,1 @@
-web: python manage.py tailwind start && gunicorn Pentecost.wsgi --log-file -
+web: python manage.py tailwind start && gunicorn Hosi.wsgi --log-file -
